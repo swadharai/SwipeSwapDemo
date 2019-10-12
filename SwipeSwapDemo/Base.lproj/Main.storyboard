@@ -49,6 +49,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.39130870829999997" green="0.69931646189999996" blue="0.95112127589999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="V1o-VP-mwB" kind="show" id="ogJ-LM-SKF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -96,6 +99,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextPress:" destination="V1o-VP-mwB" eventType="touchUpInside" id="FAb-dY-kO1"/>
+                                    <segue destination="MVB-7R-R5F" kind="show" identifier="goToHome" id="OKs-hp-d5f"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qK0-Z2-MxP">
@@ -209,4 +213,7 @@
     <resources>
         <image name="none" width="16" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="OKs-hp-d5f"/>
+    </inferredMetricsTieBreakers>
 </document>
