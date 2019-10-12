@@ -24,13 +24,14 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func nextPress(_ sender: Any) {
-        guard nameField.text != "",
-            emailField.text != "",
-            passwordField.text != "",
-            confirmPasswordField.text != ""
-            else {
-                return;
-            }
+//        guard
+//            nameField.text != "",
+//            emailField.text != "",
+//            passwordField.text != "",
+//            confirmPasswordField.text != ""
+//            else {
+//                return;
+//            }
         
         if passwordField.text == confirmPasswordField.text {
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, error) in // removed "optional chaining" question mark that was in tutorial vid
@@ -40,9 +41,9 @@ class SignupViewController: UIViewController {
                 }
                 
                 // check that user isn't null
-                if let user = user {
+                if let u = user {
                     // going to home screen
-                    let a = user.emailField.text
+                    
                     self.performSegue(withIdentifier: "goToHome", sender: self) // these might not be defined yet
                 } else {
                     // error: check error and show message

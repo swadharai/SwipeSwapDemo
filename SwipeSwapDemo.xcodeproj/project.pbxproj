@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AE85155E74C6AE7509995C4 /* Pods_SwipeSwapDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */; };
-		0BE2A47923526E75004E84EB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE2A47823526E75004E84EB /* View.xib */; };
 		6DD549412352538A005D5724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549402352538A005D5724 /* AppDelegate.swift */; };
 		6DD549432352538A005D5724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549422352538A005D5724 /* ViewController.swift */; };
 		6DD549462352538A005D5724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD549442352538A005D5724 /* Main.storyboard */; };
@@ -18,6 +17,9 @@
 		6DD549612352538C005D5724 /* SwipeSwapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549602352538C005D5724 /* SwipeSwapDemoUITests.swift */; };
 		6DD5496F23526170005D5724 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5496E23526170005D5724 /* SignupViewController.swift */; };
 		6DD549712352632C005D5724 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DD549702352632C005D5724 /* GoogleService-Info.plist */; };
+		6DD5497323528A76005D5724 /* UNClogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497223528A5C005D5724 /* UNClogin.png */; };
+		6DD5497523528F4D005D5724 /* UNCsignon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497423528F4D005D5724 /* UNCsignon.png */; };
+		6DD5497723528FE1005D5724 /* UNCsignon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497623528FE1005D5724 /* UNCsignon2.png */; };
 		75CEC3B372956280F5FB6601 /* Pods_SwipeSwapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B255B5B541E701C31B87FD /* Pods_SwipeSwapDemo.framework */; };
 		A3CE18335756A02393C71074 /* Pods_SwipeSwapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -40,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BE2A47823526E75004E84EB /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		50C8A2A8FB064E0C0295D4E3 /* Pods-SwipeSwapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemo.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemo/Pods-SwipeSwapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD580CD2291BAA652D87E84 /* Pods-SwipeSwapDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoUITests/Pods-SwipeSwapDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,6 +60,9 @@
 		6DD549622352538C005D5724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD5496E23526170005D5724 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		6DD549702352632C005D5724 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DD5497223528A5C005D5724 /* UNClogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNClogin.png; sourceTree = "<group>"; };
+		6DD5497423528F4D005D5724 /* UNCsignon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNCsignon.png; sourceTree = "<group>"; };
+		6DD5497623528FE1005D5724 /* UNCsignon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNCsignon2.png; sourceTree = "<group>"; };
 		81AA7B34EBFB3E7C4AB81002 /* Pods-SwipeSwapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoTests/Pods-SwipeSwapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		96A8BB3CB32C464F44E7FDB7 /* Pods-SwipeSwapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoUITests/Pods-SwipeSwapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,11 +134,13 @@
 		6DD5493F2352538A005D5724 /* SwipeSwapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6DD5497623528FE1005D5724 /* UNCsignon2.png */,
+				6DD5497423528F4D005D5724 /* UNCsignon.png */,
+				6DD5497223528A5C005D5724 /* UNClogin.png */,
 				6DD549702352632C005D5724 /* GoogleService-Info.plist */,
 				6DD549402352538A005D5724 /* AppDelegate.swift */,
 				6DD549422352538A005D5724 /* ViewController.swift */,
 				6DD549442352538A005D5724 /* Main.storyboard */,
-				0BE2A47823526E75004E84EB /* View.xib */,
 				6DD549472352538C005D5724 /* Assets.xcassets */,
 				6DD549492352538C005D5724 /* LaunchScreen.storyboard */,
 				6DD5494C2352538C005D5724 /* Info.plist */,
@@ -282,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD5497723528FE1005D5724 /* UNCsignon2.png in Resources */,
 				6DD5494B2352538C005D5724 /* LaunchScreen.storyboard in Resources */,
-				0BE2A47923526E75004E84EB /* View.xib in Resources */,
 				6DD549712352632C005D5724 /* GoogleService-Info.plist in Resources */,
+				6DD5497523528F4D005D5724 /* UNCsignon.png in Resources */,
+				6DD5497323528A76005D5724 /* UNClogin.png in Resources */,
 				6DD549482352538C005D5724 /* Assets.xcassets in Resources */,
 				6DD549462352538A005D5724 /* Main.storyboard in Resources */,
 			);
