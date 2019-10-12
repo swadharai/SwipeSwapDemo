@@ -228,11 +228,13 @@
             </objects>
             <point key="canvasLocation" x="3201" y="97"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Back-->
         <scene sceneID="Lha-yw-59u">
             <objects>
                 <tabBarController id="hIX-bH-FHZ" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="My8-mE-3uB"/>
+                    <navigationItem key="navigationItem" title="Back" prompt="Back" id="My8-mE-3uB">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="aRL-0h-v9L"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="FOu-ww-4wD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -252,32 +254,14 @@
             </objects>
             <point key="canvasLocation" x="4175.1999999999998" y="96.7016491754123"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="dbS-LS-U7A">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E78-FG-kPo" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VEz-zZ-FXL">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Vg6-yV-GqT" kind="relationship" relationship="rootViewController" id="L0f-30-Hxv"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tq4-Bw-cxG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2082" y="99"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="UNCsignon2Asset" width="405" height="666"/>
-        <image name="UNCsignonAsset" width="410" height="172"/>
+        <image name="UNCsignon2Asset" width="243" height="399.60000610351562"/>
+        <image name="UNCsignonAsset" width="246" height="103.19999694824219"/>
         <image name="icons8-connect-30" width="30" height="30"/>
         <image name="icons8-direction-30" width="30" height="30"/>
         <image name="icons8-navigation-30" width="30" height="30"/>
         <image name="icons8-speech-bubble-30" width="30" height="30"/>
-        <image name="swipeswaplogo" width="200" height="200"/>
+        <image name="swipeswaplogo" width="150" height="150"/>
     </resources>
 </document>
