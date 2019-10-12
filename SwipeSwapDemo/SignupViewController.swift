@@ -39,8 +39,12 @@ class SignupViewController: UIViewController {
                     print(error.localizedDescription)
                 }
                 
+                // check that user isn't null
                 if let user = user {
-                    //if let url
+                    // going to home screen
+                    self.performSegue(withIdentifier: "goToHome", sender: self) // these might not be defined yet
+                } else {
+                    // error: check error and show message
                 }
                 
             })
