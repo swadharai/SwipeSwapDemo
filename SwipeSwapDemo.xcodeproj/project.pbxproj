@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE85155E74C6AE7509995C4 /* Pods_SwipeSwapDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */; };
 		6DD549412352538A005D5724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549402352538A005D5724 /* AppDelegate.swift */; };
 		6DD549432352538A005D5724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549422352538A005D5724 /* ViewController.swift */; };
 		6DD549462352538A005D5724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD549442352538A005D5724 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		6DD5494B2352538C005D5724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD549492352538C005D5724 /* LaunchScreen.storyboard */; };
 		6DD549562352538C005D5724 /* SwipeSwapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549552352538C005D5724 /* SwipeSwapDemoTests.swift */; };
 		6DD549612352538C005D5724 /* SwipeSwapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD549602352538C005D5724 /* SwipeSwapDemoUITests.swift */; };
+		6DD5496F23526170005D5724 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5496E23526170005D5724 /* SignupViewController.swift */; };
+		6DD549712352632C005D5724 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DD549702352632C005D5724 /* GoogleService-Info.plist */; };
+		75CEC3B372956280F5FB6601 /* Pods_SwipeSwapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B255B5B541E701C31B87FD /* Pods_SwipeSwapDemo.framework */; };
+		A3CE18335756A02393C71074 /* Pods_SwipeSwapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50C8A2A8FB064E0C0295D4E3 /* Pods-SwipeSwapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemo.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemo/Pods-SwipeSwapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD580CD2291BAA652D87E84 /* Pods-SwipeSwapDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoUITests/Pods-SwipeSwapDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DD5493D2352538A005D5724 /* SwipeSwapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeSwapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD549402352538A005D5724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DD549422352538A005D5724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		6DD5495C2352538C005D5724 /* SwipeSwapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeSwapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD549602352538C005D5724 /* SwipeSwapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeSwapDemoUITests.swift; sourceTree = "<group>"; };
 		6DD549622352538C005D5724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DD5496E23526170005D5724 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		6DD549702352632C005D5724 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81AA7B34EBFB3E7C4AB81002 /* Pods-SwipeSwapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoTests/Pods-SwipeSwapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		96A8BB3CB32C464F44E7FDB7 /* Pods-SwipeSwapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoUITests/Pods-SwipeSwapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B255B5B541E701C31B87FD /* Pods_SwipeSwapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE5ECDBE0C6FE6308DDFC2F /* Pods-SwipeSwapDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoTests/Pods-SwipeSwapDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F23F25CEEE9DAEDFE35388EF /* Pods-SwipeSwapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemo/Pods-SwipeSwapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CEC3B372956280F5FB6601 /* Pods_SwipeSwapDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE85155E74C6AE7509995C4 /* Pods_SwipeSwapDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CE18335756A02393C71074 /* Pods_SwipeSwapDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4601DE24AB131624C9B6A729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1B255B5B541E701C31B87FD /* Pods_SwipeSwapDemo.framework */,
+				A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */,
+				598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DD549342352538A005D5724 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				6DD549542352538C005D5724 /* SwipeSwapDemoTests */,
 				6DD5495F2352538C005D5724 /* SwipeSwapDemoUITests */,
 				6DD5493E2352538A005D5724 /* Products */,
+				ABC220D363AB50E54A94D27A /* Pods */,
+				4601DE24AB131624C9B6A729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +128,14 @@
 		6DD5493F2352538A005D5724 /* SwipeSwapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6DD549702352632C005D5724 /* GoogleService-Info.plist */,
 				6DD549402352538A005D5724 /* AppDelegate.swift */,
 				6DD549422352538A005D5724 /* ViewController.swift */,
 				6DD549442352538A005D5724 /* Main.storyboard */,
 				6DD549472352538C005D5724 /* Assets.xcassets */,
 				6DD549492352538C005D5724 /* LaunchScreen.storyboard */,
 				6DD5494C2352538C005D5724 /* Info.plist */,
+				6DD5496E23526170005D5724 /* SignupViewController.swift */,
 			);
 			path = SwipeSwapDemo;
 			sourceTree = "<group>";
@@ -125,6 +158,19 @@
 			path = SwipeSwapDemoUITests;
 			sourceTree = "<group>";
 		};
+		ABC220D363AB50E54A94D27A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F23F25CEEE9DAEDFE35388EF /* Pods-SwipeSwapDemo.debug.xcconfig */,
+				50C8A2A8FB064E0C0295D4E3 /* Pods-SwipeSwapDemo.release.xcconfig */,
+				DEE5ECDBE0C6FE6308DDFC2F /* Pods-SwipeSwapDemoTests.debug.xcconfig */,
+				81AA7B34EBFB3E7C4AB81002 /* Pods-SwipeSwapDemoTests.release.xcconfig */,
+				6AD580CD2291BAA652D87E84 /* Pods-SwipeSwapDemoUITests.debug.xcconfig */,
+				96A8BB3CB32C464F44E7FDB7 /* Pods-SwipeSwapDemoUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DD549652352538C005D5724 /* Build configuration list for PBXNativeTarget "SwipeSwapDemo" */;
 			buildPhases = (
+				DD8AF4E090D6636F6B65C281 /* [CP] Check Pods Manifest.lock */,
 				6DD549392352538A005D5724 /* Sources */,
 				6DD5493A2352538A005D5724 /* Frameworks */,
 				6DD5493B2352538A005D5724 /* Resources */,
+				8229432DFC928012EC77C72C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DD549682352538C005D5724 /* Build configuration list for PBXNativeTarget "SwipeSwapDemoTests" */;
 			buildPhases = (
+				4BD13BCD037B4073458C8B5A /* [CP] Check Pods Manifest.lock */,
 				6DD5494D2352538C005D5724 /* Sources */,
 				6DD5494E2352538C005D5724 /* Frameworks */,
 				6DD5494F2352538C005D5724 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DD5496B2352538C005D5724 /* Build configuration list for PBXNativeTarget "SwipeSwapDemoUITests" */;
 			buildPhases = (
+				A61D9D6C6A55C6E74790A87D /* [CP] Check Pods Manifest.lock */,
 				6DD549582352538C005D5724 /* Sources */,
 				6DD549592352538C005D5724 /* Frameworks */,
 				6DD5495A2352538C005D5724 /* Resources */,
@@ -230,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD5494B2352538C005D5724 /* LaunchScreen.storyboard in Resources */,
+				6DD549712352632C005D5724 /* GoogleService-Info.plist in Resources */,
 				6DD549482352538C005D5724 /* Assets.xcassets in Resources */,
 				6DD549462352538A005D5724 /* Main.storyboard in Resources */,
 			);
@@ -251,11 +302,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD13BCD037B4073458C8B5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeSwapDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8229432DFC928012EC77C72C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeSwapDemo/Pods-SwipeSwapDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeSwapDemo/Pods-SwipeSwapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61D9D6C6A55C6E74790A87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeSwapDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8AF4E090D6636F6B65C281 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeSwapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DD549392352538A005D5724 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD5496F23526170005D5724 /* SignupViewController.swift in Sources */,
 				6DD549432352538A005D5724 /* ViewController.swift in Sources */,
 				6DD549412352538A005D5724 /* AppDelegate.swift in Sources */,
 			);
@@ -430,9 +579,11 @@
 		};
 		6DD549662352538C005D5724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23F25CEEE9DAEDFE35388EF /* Pods-SwipeSwapDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39NYKGZF4;
 				INFOPLIST_FILE = SwipeSwapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +598,11 @@
 		};
 		6DD549672352538C005D5724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C8A2A8FB064E0C0295D4E3 /* Pods-SwipeSwapDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39NYKGZF4;
 				INFOPLIST_FILE = SwipeSwapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +617,7 @@
 		};
 		6DD549692352538C005D5724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE5ECDBE0C6FE6308DDFC2F /* Pods-SwipeSwapDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +638,7 @@
 		};
 		6DD5496A2352538C005D5724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81AA7B34EBFB3E7C4AB81002 /* Pods-SwipeSwapDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +659,7 @@
 		};
 		6DD5496C2352538C005D5724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD580CD2291BAA652D87E84 /* Pods-SwipeSwapDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +679,7 @@
 		};
 		6DD5496D2352538C005D5724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96A8BB3CB32C464F44E7FDB7 /* Pods-SwipeSwapDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
