@@ -20,6 +20,8 @@
 		6DD5497523528F4D005D5724 /* UNCsignon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497423528F4D005D5724 /* UNCsignon.png */; };
 		6DD5497723528FE1005D5724 /* UNCsignon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497623528FE1005D5724 /* UNCsignon2.png */; };
 		6DD5497D23534D91005D5724 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5497C23534D91005D5724 /* ProfileController.swift */; };
+		6DD5497F235352B3005D5724 /* SwipeSwapDemo in Resources */ = {isa = PBXBuildFile; fileRef = 6DD5497E235352B3005D5724 /* SwipeSwapDemo */; };
+		6DD54981235352C9005D5724 /* generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DD54980235352C9005D5724 /* generic.png */; };
 		75CEC3B372956280F5FB6601 /* Pods_SwipeSwapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B255B5B541E701C31B87FD /* Pods_SwipeSwapDemo.framework */; };
 		A3CE18335756A02393C71074 /* Pods_SwipeSwapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598811967A39571442E4CFAF /* Pods_SwipeSwapDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		6DD5497423528F4D005D5724 /* UNCsignon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNCsignon.png; sourceTree = "<group>"; };
 		6DD5497623528FE1005D5724 /* UNCsignon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UNCsignon2.png; sourceTree = "<group>"; };
 		6DD5497C23534D91005D5724 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		6DD5497E235352B3005D5724 /* SwipeSwapDemo */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwipeSwapDemo; sourceTree = "<group>"; };
+		6DD54980235352C9005D5724 /* generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = generic.png; sourceTree = "<group>"; };
 		81AA7B34EBFB3E7C4AB81002 /* Pods-SwipeSwapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoTests/Pods-SwipeSwapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		96A8BB3CB32C464F44E7FDB7 /* Pods-SwipeSwapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeSwapDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SwipeSwapDemoUITests/Pods-SwipeSwapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A10E1908CFE4D2A40E13EEC0 /* Pods_SwipeSwapDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeSwapDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +146,8 @@
 				6DD549442352538A005D5724 /* Main.storyboard */,
 				6DD5497C23534D91005D5724 /* ProfileController.swift */,
 				6DD549472352538C005D5724 /* Assets.xcassets */,
+				6DD54980235352C9005D5724 /* generic.png */,
+				6DD5497E235352B3005D5724 /* SwipeSwapDemo */,
 				6DD549492352538C005D5724 /* LaunchScreen.storyboard */,
 				6DD5494C2352538C005D5724 /* Info.plist */,
 				6DD5496E23526170005D5724 /* SignupViewController.swift */,
@@ -291,6 +297,8 @@
 				6DD5497723528FE1005D5724 /* UNCsignon2.png in Resources */,
 				6DD5494B2352538C005D5724 /* LaunchScreen.storyboard in Resources */,
 				6DD549712352632C005D5724 /* GoogleService-Info.plist in Resources */,
+				6DD54981235352C9005D5724 /* generic.png in Resources */,
+				6DD5497F235352B3005D5724 /* SwipeSwapDemo in Resources */,
 				6DD5497523528F4D005D5724 /* UNCsignon.png in Resources */,
 				6DD549482352538C005D5724 /* Assets.xcassets in Resources */,
 				6DD549462352538A005D5724 /* Main.storyboard in Resources */,
