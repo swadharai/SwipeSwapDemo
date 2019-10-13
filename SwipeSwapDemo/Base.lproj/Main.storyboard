@@ -336,11 +336,11 @@
             </objects>
             <point key="canvasLocation" x="3204" y="2429.2353823088456"/>
         </scene>
-        <!--Profile-->
+        <!--Profile Controller-->
         <scene sceneID="KZq-u1-WgY">
             <objects>
-                <viewController id="TH9-3t-W8O" customClass="Profile" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="h01-xF-cLU">
+                <viewController id="TH9-3t-W8O" customClass="ProfileController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h01-xF-cLU" customClass="editProfile">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

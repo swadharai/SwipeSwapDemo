@@ -30,11 +30,15 @@ class SignupViewController: UIViewController {
     @IBAction func nextPress(_ sender: Any) {
         
         let rootRef = Database.database().reference()
-        let ref = rootRef.child("Single User")
+        let ref = rootRef.child("List User")
         
-        let userChild = ref.child("userData")
+        if nameField.text != "" {
+            ref.child("List User").childByAutoId().setValue(nameField.text) // primary key
+//                    nameField.text = ""
+        }
+        let userChild = ref.child(nameField.text!)
         
-        let dictUser: [String: String] = ["descript": "dummydescript", "price": "dummyPrice", "Status": "hungry heel"]
+        let dictUser: [String: String] = ["description": "dummydescription", "price": "dummyPrice", "status": "dummyStatus"]
         
         userChild.setValue(dictUser)
         
