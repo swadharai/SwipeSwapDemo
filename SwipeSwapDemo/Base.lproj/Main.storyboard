@@ -45,6 +45,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.39130870829999997" green="0.69931646189999996" blue="0.95112127589999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="V1o-VP-mwB" kind="show" id="Xw7-ey-5tR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -79,6 +82,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextPress:" destination="V1o-VP-mwB" eventType="touchUpInside" id="FAb-dY-kO1"/>
+                                    <segue destination="Vg6-yV-GqT" kind="show" identifier="goToHome" id="uPa-eI-V9h"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qK0-Z2-MxP">
@@ -459,14 +463,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="UNCsignon2Asset" width="243" height="399.60000610351562"/>
-        <image name="UNCsignonAsset" width="246" height="103.19999694824219"/>
+        <image name="UNCsignon2Asset" width="405" height="666"/>
+        <image name="UNCsignonAsset" width="410" height="172"/>
         <image name="icons8-connect-30" width="30" height="30"/>
         <image name="icons8-direction-30" width="30" height="30"/>
         <image name="icons8-list-30" width="30" height="30"/>
         <image name="icons8-navigation-30" width="30" height="30"/>
         <image name="icons8-speech-bubble-30" width="30" height="30"/>
-        <image name="swipeswaplogo" width="150" height="150"/>
+        <image name="swipeswaplogo" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="h7M-sa-5b0"/>
