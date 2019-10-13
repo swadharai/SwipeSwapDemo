@@ -28,13 +28,15 @@ class EditViewController: UIViewController {
     
     @IBAction func SaveChangesAction(_ sender: Any) {
         
+        var user = FirebaseApp.auth().currentUser;
+
         let rootRef = Database.database().reference()
         let ref = rootRef.child("List User")
         guard let key = ref.child("List User").childByAutoId().key else{return}
-        let user =
-            ["description": DescriptionField.text!,
-             "price": PriceField.text!,
-             "status": StatusField.text!]
+//        let user =
+//            ["description": DescriptionField.text!,
+//             "price": PriceField.text!,
+//             "status": StatusField.text!]
         
         
         guard let uid = user.uid else {
@@ -45,7 +47,7 @@ class EditViewController: UIViewController {
         let price = ["price": PriceField.text!]
         let status = ["status": StatusField.text!]
         
-        let ref = Database.database().reference().root.child("List User").child(uid).updateChildValues(["description": descript],["price": price],)
+        let ref = Database.database().reference().root.child("List User").child(uid).updateChildValues(["description": descript],["price": price])
         
         
     }

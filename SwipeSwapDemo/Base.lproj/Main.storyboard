@@ -134,14 +134,10 @@
         <scene sceneID="gAp-Rr-FaP">
             <objects>
                 <viewController id="MVB-7R-R5F" sceneMemberID="viewController">
-                    <navigationBar key="view" contentMode="scaleToFill" id="ZcF-Ck-Dmg">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swipe" id="xd3-TE-5Jg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <items>
-                            <navigationItem title="Title" id="wTl-Jc-KQi"/>
-                        </items>
-                    </navigationBar>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <navigationItem key="navigationItem" id="f2w-sj-tJp">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="rd4-4I-Zx8">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -159,14 +155,10 @@
         <scene sceneID="tgM-Ir-vIt">
             <objects>
                 <viewController id="cro-tG-qN8" sceneMemberID="viewController">
-                    <navigationBar key="view" contentMode="scaleToFill" id="iPA-Bw-xd8">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-13 at 10.19.49 AM" id="S5h-8a-Lu5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <items>
-                            <navigationItem title="Title" id="GWA-4o-cao"/>
-                        </items>
-                    </navigationBar>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <navigationItem key="navigationItem" id="GWV-wM-tZW">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="dWw-Y8-qDZ">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -184,14 +176,10 @@
         <scene sceneID="ZyB-Jd-4Jw">
             <objects>
                 <viewController id="Y3h-8Y-0bC" sceneMemberID="viewController">
-                    <navigationBar key="view" contentMode="scaleToFill" id="AQ1-SL-cgy">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="explore" id="rww-IR-P48">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <items>
-                            <navigationItem title="swipeswap" prompt="swipeswap" id="i4w-9b-a5e"/>
-                        </items>
-                    </navigationBar>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <navigationItem key="navigationItem" id="GWy-mR-8b0">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="hKz-Ef-ITI">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -209,14 +197,10 @@
         <scene sceneID="ogi-6x-22D">
             <objects>
                 <viewController id="CNg-UW-8MC" sceneMemberID="viewController">
-                    <navigationBar key="view" contentMode="scaleToFill" id="FEL-4U-eGd">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Outreach" id="ZZo-t4-fol">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <items>
-                            <navigationItem title="Title" id="JNV-OX-nfC"/>
-                        </items>
-                    </navigationBar>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
                     <navigationItem key="navigationItem" id="E3Y-3l-5az">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="FI3-eb-9Ju">
                             <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -580,17 +564,21 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Outreach" width="441" height="803"/>
+        <image name="Screen Shot 2019-10-13 at 10.19.49 AM" width="462" height="818"/>
         <image name="UNCsignon2Asset" width="405" height="666"/>
         <image name="UNCsignonAsset" width="410" height="172"/>
+        <image name="explore" width="407" height="908"/>
         <image name="generic.png" width="920" height="678"/>
         <image name="icons8-connect-30" width="30" height="30"/>
         <image name="icons8-direction-30" width="30" height="30"/>
         <image name="icons8-list-30" width="30" height="30"/>
         <image name="icons8-navigation-30" width="30" height="30"/>
         <image name="icons8-speech-bubble-30" width="30" height="30"/>
+        <image name="swipe" width="425" height="851"/>
         <image name="swipeswaplogo" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="h7M-sa-5b0"/>
+        <segue reference="d31-nv-RX4"/>
     </inferredMetricsTieBreakers>
 </document>
