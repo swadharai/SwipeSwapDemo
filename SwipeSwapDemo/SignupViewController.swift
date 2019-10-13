@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class SignupViewController: UIViewController {
     
@@ -17,21 +18,47 @@ class SignupViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var nextButton: UIButton!
     
+    var ref: DatabaseReference?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+
     
     @IBAction func nextPress(_ sender: Any) {
-//        guard
-//            nameField.text != "",
-//            emailField.text != "",
-//            passwordField.text != "",
-//            confirmPasswordField.text != ""
-//            else {
-//                return;
-//            }
+        
+        let rootRef = Database.database().reference()
+        let ref = rootRef.child("Single User")
+        
+        let userChild = ref.child("userData")
+        
+        let dictUser: [String: String] = ["descript": "dummydescript", "price": "dummyPrice", "Status": "hungry heel"]
+        
+        userChild.setValue(dictUser)
+        
+//
+//        if nameField.text != "" {
+//            ref?.child("users").childByAutoId().setValue(nameField.text) // primary key
+//            // nameField.text = ""
+//
+//
+//        }
+//
+        
+        
+        
+        
+        // CHECK IF WE CAN REDO OUR NULL CHECKS
+        //        guard
+        //            nameField.text != "",
+        //            emailField.text != "",
+        //            passwordField.text != "",
+        //            confirmPasswordField.text != ""
+        //            else {
+        //                return;
+        //            }
         
         if passwordField.text == confirmPasswordField.text {
             Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, error) in // removed "optional chaining" question mark that was in tutorial vid
@@ -54,6 +81,63 @@ class SignupViewController: UIViewController {
         } else {
             print("Password does not match")
         }
-    
     }
+    
+    class user {
+        
+        var name: String!
+        var key: String
+        
+        init(from snapshot: DataSnapshot) {
+            
+            let snapshotValue = snapshot.value as! [String: Any]
+            
+            self.name = snapshotValue["name"] as? String
+            self.key = snapshot.key
+        }
+    }
+    
+   // @IBAction func nextPress( sender: Any) {
+//
+//        ref = Database.database().reference()
+//
+//        if nameField.text != "" {
+//            ref?.child("list").childByAutoId().setValue(nameField.text) // primary key
+//               // nameField.text = ""
+//
+//        }
+//
+//        // CHECK IF WE CAN REDO OUR NULL CHECKS
+////        guard
+////            nameField.text != "",
+////            emailField.text != "",
+////            passwordField.text != "",
+////            confirmPasswordField.text != ""
+////            else {
+////                return;
+////            }
+//
+//        if passwordField.text == confirmPasswordField.text {
+//            Auth.auth().createUser(withEmail: emailField.text!, password: passwordField.text!, completion: { (user, error) in // removed "optional chaining" question mark that was in tutorial vid
+//
+//                if let error = error {
+//                    print(error.localizedDescription)
+//                }
+//
+//                // check that user isn't null
+//                if let u = user {
+//                    // going to home screen
+//                    //let price = user?.additionalUserInfo;
+//                    self.performSegue(withIdentifier: "goToHome", sender: self) // these might not be defined yet
+//                } else {
+//                    // error: check error and show message
+//                }
+//
+//            })
+//
+//        } else {
+//            print("Password does not match")
+//        }
+    
+ //   }
 }
