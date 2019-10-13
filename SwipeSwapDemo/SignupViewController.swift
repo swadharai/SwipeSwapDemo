@@ -38,7 +38,7 @@ class SignupViewController: UIViewController {
         }
         let userChild = ref.child(nameField.text!)
         
-        let dictUser: [String: String] = ["description": "dummydescription", "price": "dummyPrice", "status": "dummyStatus"]
+        let dictUser: [String: String] = ["description": "Helping Heel", "price": "$0", "status": "I have 2 swipes to give away at Lenoir!"]
         
         userChild.setValue(dictUser)
         

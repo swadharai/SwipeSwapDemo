@@ -134,7 +134,7 @@
         <scene sceneID="gAp-Rr-FaP">
             <objects>
                 <viewController id="MVB-7R-R5F" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swipe" id="xd3-TE-5Jg">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swipe" id="xd3-TE-5Jg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -155,7 +155,7 @@
         <scene sceneID="tgM-Ir-vIt">
             <objects>
                 <viewController id="cro-tG-qN8" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-13 at 10.19.49 AM" id="S5h-8a-Lu5">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-10-13 at 10.19.49 AM" id="S5h-8a-Lu5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -197,7 +197,7 @@
         <scene sceneID="ogi-6x-22D">
             <objects>
                 <viewController id="CNg-UW-8MC" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Outreach" id="ZZo-t4-fol">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OutreachFinal" id="ZZo-t4-fol">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -281,24 +281,13 @@
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NMy-b8-NsG">
                                 <rect key="frame" x="0.0" y="64" width="224" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Bs-jO-aCz">
-                                        <rect key="frame" x="42" y="131" width="200" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                        <state key="normal" title="Edit Profile">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="Ykh-Ip-baD" kind="show" id="6Dw-K3-zwY"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mq-kh-FOl">
                                         <rect key="frame" x="42" y="59" width="200" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
-                                        <state key="normal" title="View Profile">
+                                        <state key="normal" title="Edit Profile">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -313,7 +302,11 @@
                         <viewLayoutGuide key="safeArea" id="cLo-SC-6qE"/>
                     </view>
                     <navigationItem key="navigationItem" id="x2n-bM-Sc6">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="RIQ-C4-iQz"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="icons8-list-30" id="RIQ-C4-iQz">
+                            <connections>
+                                <segue destination="hIX-bH-FHZ" kind="show" id="83b-w5-HY1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFi-ai-L5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -394,10 +387,10 @@
             </objects>
             <point key="canvasLocation" x="2820" y="3232.5337331334335"/>
         </scene>
-        <!--Edit View Controller-->
+        <!--View Controller-->
         <scene sceneID="vbN-7O-bZS">
             <objects>
-                <viewController id="Ykh-Ip-baD" customClass="EditViewController" sceneMemberID="viewController">
+                <viewController id="Ykh-Ip-baD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="942-O1-BlL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -564,7 +557,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Outreach" width="441" height="803"/>
+        <image name="OutreachFinal" width="437" height="798"/>
         <image name="Screen Shot 2019-10-13 at 10.19.49 AM" width="462" height="818"/>
         <image name="UNCsignon2Asset" width="405" height="666"/>
         <image name="UNCsignonAsset" width="410" height="172"/>
@@ -580,5 +573,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="d31-nv-RX4"/>
+        <segue reference="83b-w5-HY1"/>
     </inferredMetricsTieBreakers>
 </document>
