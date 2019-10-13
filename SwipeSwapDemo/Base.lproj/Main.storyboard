@@ -30,7 +30,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onM-KI-Zh3">
                                 <rect key="frame" x="166" y="312" width="42" height="30"/>
@@ -68,7 +68,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UNCsignon2Asset" translatesAutoresizingMaskIntoConstraints="NO" id="KSh-Wo-KZf">
                                 <rect key="frame" x="29" y="157" width="316" height="464"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UNCsignonAsset" translatesAutoresizingMaskIntoConstraints="NO" id="t2v-dQ-9Cd">
                                 <rect key="frame" x="67" y="47" width="240" height="114"/>
@@ -97,14 +97,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password (6+ characters)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wrR-cD-TiE">
                                 <rect key="frame" x="54" y="305" width="263" height="30.000000000000028"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocorrectionType="no" textContentType="password"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="example@live.unc.edu" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fJx-AQ-XY2">
                                 <rect key="frame" x="54" y="257" width="263" height="27.999999999999986"/>
@@ -238,11 +238,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="swipeswaplogo" translatesAutoresizingMaskIntoConstraints="NO" id="GUc-5g-XsU">
-                                <rect key="frame" x="37" y="233" width="300" height="200"/>
+                                <rect key="frame" x="37" y="233" width="300.00000000000023" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0W-Ys-lII">
-                                <rect key="frame" x="87" y="451" width="200" height="50"/>
+                                <rect key="frame" x="87" y="451" width="199.99999999999977" height="49.999999999999915"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <state key="normal" title="continue">
@@ -260,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v2N-XR-qZ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3201" y="97"/>
+            <point key="canvasLocation" x="3200.8000000000002" y="96.7016491754123"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Lha-yw-59u">
@@ -317,7 +317,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="TH9-3t-W8O" kind="show" id="jHW-h7-Wle"/>
+                                            <segue destination="TH9-3t-W8O" kind="show" identifier="TestProfileSegue" id="jHW-h7-Wle"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -333,18 +333,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFi-ai-L5S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3204" y="2430"/>
+            <point key="canvasLocation" x="3204" y="2429.2353823088456"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="KZq-u1-WgY">
             <objects>
-                <viewController id="TH9-3t-W8O" sceneMemberID="viewController">
+                <viewController id="TH9-3t-W8O" customClass="Profile" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h01-xF-cLU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="insert profile stuff here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MJd-Ve-heg">
-                                <rect key="frame" x="67" y="167" width="240" height="128"/>
+                                <rect key="frame" x="67" y="195" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>

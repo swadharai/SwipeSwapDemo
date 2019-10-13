@@ -43,7 +43,7 @@ class SignupViewController: UIViewController {
                 // check that user isn't null
                 if let u = user {
                     // going to home screen
-                    
+                    //let price = user?.additionalUserInfo;
                     self.performSegue(withIdentifier: "goToHome", sender: self) // these might not be defined yet
                 } else {
                     // error: check error and show message
